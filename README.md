@@ -3,7 +3,7 @@ Handling spritesheets in pygame in a easy way.
 
 ### Here is a quick example on how you would use this
 
-
+	```python
 	import spritesheet
 	...
 	ss = spritesheet.spriteshee('somespritesheet.png')
