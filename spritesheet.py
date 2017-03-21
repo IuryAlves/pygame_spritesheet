@@ -5,7 +5,10 @@ This module handles sprite sheets
 This was taken https://www.pygame.org/wiki/Spritesheet?parent=CookBook
 """
 
-import pygame
+try:
+    import pygame
+except ImportError:
+    raise ImportError('You must install pygame.')
 
 
 class Spritesheet(object):
